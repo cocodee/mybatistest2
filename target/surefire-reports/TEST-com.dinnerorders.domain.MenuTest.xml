@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.034" errors="0" skipped="0" tests="1" name="com.dinnerorders.domain.MenuTest">
+<testsuite failures="0" time="0.01" errors="0" skipped="0" tests="1" name="com.dinnerorders.domain.MenuTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_45\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="D:\SpringProjects\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6903622883999230443.tmp"/>
+    <property name="classworlds.conf" value="D:\SpringProjects\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7782801282700694727.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_45\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\Programs\Python27\;D:\Programs\Python27\Scripts;C:\Program Files (x86)\Java\jdk1.7.0_45\bin;C:\app\kdi\product\11.2.0\client_1;C:\app\kdi\product\11.2.0\client_1\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;D:\Programs;D:\Programs\gradle-1.9\bin;C:\Program Files\TortoiseSVN\bin;D:\Programs\apache-maven-3.2.1\bin;D:\Programs\Git\cmd;D:\Programs\Vagrant\bin;D:\Programs;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\Program Files (x86)\nodejs\;C:\Bitnami\rubystack-2.0.0-18\ruby\bin;D:\Programs\springsource\spring-roo-1.2.4.RELEASE\bin;D:\sikuli\libs;D:\Programs;C:\Users\kdi\AppData\Roaming\npm;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,5 +62,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase time="0.034" classname="com.dinnerorders.domain.MenuTest" name="testApp"/>
+  <testcase time="0.01" classname="com.dinnerorders.domain.MenuTest" name="testApp"/>
 </testsuite>

@@ -29,4 +29,8 @@
     from groups g left join group_users gu on g.id = gu.group_id left join users u on gu.user_id = u.id
     where g.id = #{id,jdbcType=INTEGER}
   </select>
+  <insert id="addUserToGroup" parameterType="map">
+    insert into group_users(group_id,user_id)
+    values(#{group.id},#{user.id})
+  </insert>
 </mapper>

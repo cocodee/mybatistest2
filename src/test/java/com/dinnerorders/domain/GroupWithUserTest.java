@@ -10,6 +10,9 @@ import org.junit.Test;
 import org.junit.Before;
 import org.junit.BeforeClass;
 
+import com.dinnerorders.dao.GroupWithUserMapper;
+import com.dinnerorders.dao.UserMapper;
+
 import static org.junit.Assert.assertEquals;
 public class GroupWithUserTest {
     /**
@@ -29,6 +32,16 @@ public class GroupWithUserTest {
     	try {
     	  GroupWithUser group = (GroupWithUser) session.selectOne("com.dinnerorders.dao.GroupWithUserMapper.selectByPrimaryKey", new Integer(1));
     	  System.out.println(group.getUsers().size());
+    	  /*Add one user to one group, this could not be tested many times;
+    	  User user = new User();
+    	  user.setFirstName("Peter");
+    	  user.setLastName("Peng");
+    	  UserMapper up = session.getMapper(UserMapper.class);
+    	  up.insert(user);
+    	  GroupWithUserMapper gwum = session.getMapper(GroupWithUserMapper.class);
+    	  gwum.addUserToGroup(group, user);
+    	  session.commit();
+    	  */
     	} finally {
     	  session.close();
     	}   	
